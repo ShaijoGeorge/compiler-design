@@ -1,3 +1,9 @@
+/* Lex (Flex) specification along with a C code snippet.*/
+/* Lex is a lexical analyzer generator that is often used to tokenize input for further processing in programs. */
+/* This code appears to be an attempt to create a simple program that counts lines, words, and characters in a text file */
+
+
+
 %{
 #include<stdio.h>
 int line=0,word=0,ch=0;
